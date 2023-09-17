@@ -1,0 +1,70 @@
+/* .out > p{
+    color:red;
+} */
+
+/* .out p{
+    color:red;
+} */
+
+/* .out .this{
+    color:red;
+} */
+
+.out.this{
+    color:red;
+}
+
+/* .this {
+    display: inline;
+} */
+
+/* .this {
+    display: none;
+} */
+
+/* .this {
+    visibility: hidden;
+} */
+
+.this{
+    background-color: red;
+}
+
+/* .inline {
+    display: inline;
+    background-color: aquamarine;
+} */
+
+.inline {
+    display: inline-block;
+    background-color: aquamarine;
+    width: 300px;
+}
+
+/* div > p {
+    color:lightcoral;
+    font-size: larger;  */
+
+/* div + p {
+    color:lightcoral;
+} */
+
+/* div ~ p {
+    color:lightcoral;
+} */
+
+/* p{
+    color: green;
+}
+
+#someP{
+    color:darkcyan;
+}
+
+#someQ{
+    color:yellow;
+}
+
+.someClass{
+    color:red;
+} */

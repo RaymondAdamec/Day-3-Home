@@ -4,40 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS day 1</title>
-    <style>
-        p{
-            color:lightcoral;
-            font-size: larger;
-        }
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style2.css"> -->
 
-        p{
-            color: green;
-        }
-
-        #someP{
-            color:darkcyan;
-        }
-
-        #someQ{
-            color:yellow;
-        }
-
-        .someClass{
-            color:red;
-        }
-
-    </style>
 </head>
 <body>
-    <h1 style="color: dodgerblue">CSS</h1>
+    <h1>CSS</h1>
     <p>something to learn</p>
 
-    <div>
+    <div class="out">
         <p>aaaa</p>
+        <p class="this">aaaa</p>
+        <p class="this out">aaaa</p>
+        <p>aaaa<span>aaaa</span></p>
         <p>aaaa</p>
-        <p>aaaa</p>
-        <p>aaaa</p>
-        <p>aaaa</p>
+        <div class="in">
+            <p>dddd</p>
+            <p>dddd</p>
+            <p>dddd</p>
+        </div>
     </div>
 
     <div>
@@ -48,13 +33,11 @@
         <p class="someClass">bbbb</p>
     </div>
 
-    <div>
+        <p class="inline">cccc</p>
+        <p class="this">cccc</p>
+        <p class="this">cccc</p>
         <p>cccc</p>
         <p>cccc</p>
-        <p>cccc</p>
-        <p>cccc</p>
-        <p>cccc</p>
-    </div>
     
 </body>
 </html>
